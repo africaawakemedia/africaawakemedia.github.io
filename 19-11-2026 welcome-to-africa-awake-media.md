@@ -1,4 +1,10 @@
-🌍 WELCOME TO AFRICA AWAKE MEDIA
+---
+layout: post
+title: "WELCOME TO AFRICA AWAKE MEDIA"
+date: 2026-11-19
+---
+
+Hello! WELCOME TO AFRICA AWAKE MEDIA
  Your Trusted Voice for African and Global News
 
 Africa Awake Media is your destination for news, information, and stories that matter.
