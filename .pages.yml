@@ -1,1 +1,32 @@
-content/post
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: posts
+    label: Darussa da Rubuce-rubuce
+    type: collection
+    path: content/posts
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Taken rubutu
+        type: string
+        required: true
+      - name: date
+        label: Ranar rubutawa
+        type: date
+      - name: category
+        label: Rukuni
+        type: string
+      - name: excerpt
+        label: Takaitaccen bayani
+        type: text
+      - name: image
+        label: Hoton rubutu
+        type: image
+      - name: body
+        label: Cikakken bayani
+        type: rich-text
+        
