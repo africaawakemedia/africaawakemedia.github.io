@@ -7,8 +7,6 @@ image: /media/Education Empowers African Communities.png
 ---
 # AFRICA AWAKE MEDIA
 
-
-
 ## Taken Darasi: Muhimmancin Ilimi a Ci gaban Al'umma
 
 *The Importance of Education in Community Development*
@@ -24,16 +22,10 @@ Ilimi shi ne ginshiƙin ci gaban kowace al'umma. Yana taimaka wa mutane su fahim
 ### Me ya sa ilimi yake da muhimmanci?
 
 1. Yana rage jahilci.
-
 2. Yana samar da ƙwarewa da hanyoyin samun aikin yi.
-
 3. Yana taimakawa wajen ci gaban tattalin arziki.
-
 4. Yana ƙarfafa zaman lafiya da fahimtar juna.
-
 5. Yana taimaka wa matasa su gina makoma mai kyau.
-
-
 
 ### English Summary
 
