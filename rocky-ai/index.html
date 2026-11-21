@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ha">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101827"><meta name="description" content="ROCKY AI ASSISTANT — Hausa and English personal AI assistant.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="app.css">
+<title>ROCKY AI ASSISTANT</title>
+</head>
+<body>
+<div class="app-shell">
+<header class="topbar"><a class="brand" href="./"><span class="logo">R</span><span><b>ROCKY AI</b><small>PERSONAL ASSISTANT</small></span></a><button id="langToggle" class="lang">Hausa</button></header>
+<main>
+<section class="welcome" id="welcome"><div class="spark">✦</div><p class="eyebrow" data-ha="MATAIMAKINKA NA AI" data-en="YOUR PERSONAL AI ASSISTANT">MATAIMAKINKA NA AI</p><h1 data-ha="Sannu! Me zan<br><em>taimaka maka?</em>" data-en="Hello! How can I<br><em>help you today?</em>">Sannu! Me zan<br><em>taimaka maka?</em></h1><p class="sub" data-ha="Tambaye ni da Hausa ko Turanci. Za mu tsara tunani, kasuwanci da ayyukanka tare." data-en="Ask me in Hausa or English. Let's work on your ideas, business and daily tasks together.">Tambaye ni da Hausa ko Turanci. Za mu tsara tunani, kasuwanci da ayyukanka tare.</p></section>
+<section class="quick-grid" aria-label="Quick actions">
+<button class="quick" data-prompt-ha="Ka taimaka min da kasuwancina na MR-ROCKY INTERNATIONAL." data-prompt-en="Help me with my MR-ROCKY INTERNATIONAL business."><span>◈</span><b data-ha="Taimakon kasuwanci" data-en="Business help">Taimakon kasuwanci</b><small data-ha="Tsare-tsare da tallace-tallace" data-en="Plans and marketing">Tsare-tsare da tallace-tallace</small></button>
+<button class="quick" data-prompt-ha="Ka rubuta min sabon post na AFRICA AWAKE MEDIA." data-prompt-en="Write a fresh post for AFRICA AWAKE MEDIA."><span>✎</span><b data-ha="Rubuta post" data-en="Write a post">Rubuta post</b><small data-ha="Facebook da website" data-en="Facebook and website">Facebook da website</small></button>
+<button class="quick" data-prompt-ha="Nemo min hanyoyin samun aikin waya." data-prompt-en="Find ways I can earn using my phone."><span>⌕</span><b data-ha="Aikin waya" data-en="Phone-based work">Aikin waya</b><small data-ha="Dabaru da damar aiki" data-en="Skills and opportunities">Dabaru da damar aiki</small></button>
+<button class="quick" data-prompt-ha="Ka taimaka min in koyi sabon abu." data-prompt-en="Help me learn something new."><span>✧</span><b data-ha="Koyo da bincike" data-en="Learn and research">Koyo da bincike</b><small data-ha="Bayani cikin sauƙi" data-en="Clear explanations">Bayani cikin sauƙi</small></button>
+</section>
+<section class="chat" aria-label="Chat">
+<div class="chat-head"><div><b data-ha="Tattaunawa" data-en="Conversation">Tattaunawa</b><small><i></i><span data-ha="A shirye" data-en="Ready">A shirye</span></small></div><button id="clearChat" class="clear" data-ha="Goge" data-en="Clear">Goge</button></div>
+<div id="messages" class="messages" aria-live="polite"><div class="message assistant"><span class="avatar">R</span><div class="bubble" data-ha="Ni ROCKY AI ne. Ka rubuta abin da kake buƙata. A wannan sigar gwaji, wasu amsoshi na misali ne; haɗin cikakken AI yana buƙatar matakin tsaro na uwar garke." data-en="I'm ROCKY AI. Type what you need. In this preview, some replies are sample guidance; the live AI connection requires a secure server setup.">Ni ROCKY AI ne. Ka rubuta abin da kake buƙata. A wannan sigar gwaji, wasu amsoshi na misali ne; haɗin cikakken AI yana buƙatar matakin tsaro na uwar garke.</div></div></div>
+<form id="chatForm" class="composer"><textarea id="prompt" rows="1" placeholder="Rubuta saƙonka..." aria-label="Your message"></textarea><button type="submit" aria-label="Send">➤</button></form>
+<p class="disclaimer" data-ha="Kada ka aika kalmar sirri ko bayanan banki." data-en="Don't share passwords or banking details.">Kada ka aika kalmar sirri ko bayanan banki.</p>
+</section>
+</main><footer>ROCKY AI ASSISTANT <span>•</span> HAUSA + ENGLISH</footer>
+</div><script src="app.js"></script>
+</body></html>
