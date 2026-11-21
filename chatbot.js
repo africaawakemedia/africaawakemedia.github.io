@@ -44,7 +44,7 @@
     input.placeholder = t.placeholder;
     send.textContent = t.send;
     panel.querySelector("#aam-chat-note").textContent = t.note;
-    if (!history.length) addMessage(welcome(), "assistant");
+    if (!messagesEl.children.length) addMessage(welcome(), "assistant");
   }
 
   launcher.addEventListener("click", () => {
