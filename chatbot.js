@@ -1,5 +1,5 @@
 (() => {
-  const WORKER_URL = "PASTE_CLOUDFLARE_WORKER_URL_HERE";
+  const WORKER_URL = "https://africa-awake-ai.muhds1040.workers.dev";
   const history = [];
   const lang = () => (localStorage.getItem("aam-language") || document.documentElement.lang || "en");
   const welcome = () => lang() === "ha"
